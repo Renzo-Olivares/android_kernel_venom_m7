@@ -4814,7 +4814,6 @@ static struct platform_device android_pmem_ediag3_device = {
 	.dev = { .platform_data = &android_pmem_ediag3_pdata },};
 #endif
 
-
 #define MSM_RAM_CONSOLE_BASE   MSM_HTC_RAM_CONSOLE_PHYS
 #define MSM_RAM_CONSOLE_SIZE   MSM_HTC_RAM_CONSOLE_SIZE
 
