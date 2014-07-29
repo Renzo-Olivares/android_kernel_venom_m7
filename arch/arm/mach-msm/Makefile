@@ -132,6 +132,7 @@ obj-$(CONFIG_MSM_ONCRPCROUTER) += smd_rpcrouter.o
 obj-$(CONFIG_MSM_ONCRPCROUTER) += smd_rpcrouter_device.o
 obj-$(CONFIG_MSM_IPC_ROUTER) += ipc_router.o
 obj-$(CONFIG_MSM_IPC_ROUTER)+= ipc_socket.o
+obj-$(CONFIG_MSM_IPC_ROUTER_SECURITY)+= msm_ipc_router_security.o
 obj-$(CONFIG_DEBUG_FS) += smd_rpc_sym.o
 obj-$(CONFIG_MSM_ONCRPCROUTER) += smd_rpcrouter_servers.o
 obj-$(CONFIG_MSM_ONCRPCROUTER) += smd_rpcrouter_clients.o
@@ -711,5 +712,3 @@ obj-$(CONFIG_IOEXTENDER) += ADP5585_ioextender.o
 
 #PWR2_ADD, @CPU Sniffer: CPU usage statistics.
 obj-y += htc_cpu_usage_stats.o
-
-obj-$(CONFIG_MSM_IPC_ROUTER_SECURITY) += msm_ipc_router_security.o
